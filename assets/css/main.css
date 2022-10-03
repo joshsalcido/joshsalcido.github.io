@@ -2879,6 +2879,45 @@ input, select, textarea {
 		}
 
 /* Statistics */
+/* SKILLS */
+
+.main-skills-div{
+	/* border: 1px solid blue; */
+	display: flex;
+	height: auto;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 4rem;
+}
+.skill-div{
+	/* border: 1px solid red; */
+	display: grid;
+	margin: 2rem;
+	padding: 0px;
+}
+.skills-icons{
+	width: 4rem;
+	height: 4rem;
+	/* border: 1px solid red; */
+	object-fit: cover;
+	margin: auto;
+}
+.skills-icons-redux{
+	/* border: 1px solid red; */
+	width: 4rem;
+	height: 4rem;
+	max-width: 5rem;
+	max-height: 4rem;
+	object-fit: contain;
+}
+.skills-icons-aws{
+	/* border: 1px solid blue; */
+	width: 9rem;
+	height: 4rem;
+	max-width: 6.5rem;
+	max-height: 4rem;
+	object-fit: contain;
+}
 
 	.statistics {
 		display: -moz-flex;
