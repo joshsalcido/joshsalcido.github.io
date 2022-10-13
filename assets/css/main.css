@@ -2371,6 +2371,10 @@ input, select, textarea {
 	height: 14rem;
 	object-fit: cover;
 	border-radius: 10px;
+	margin: 0px;
+	padding: 0px;
+	box-shadow: 1px 1px 4px 4px rgb(128, 128, 128, 0.5);
+	margin-bottom: 3rem;
 }
 
 .stays-screenshot {
@@ -2380,6 +2384,10 @@ input, select, textarea {
 	object-position: left top;
 	border: none;
 	border-radius: 10px;
+	margin: 0px;
+	padding: 0px;
+	box-shadow: 1px 1px 4px 4px rgb(128, 128, 128, 0.5);
+	margin-bottom: 3rem;
 }
 
 /* Image */
@@ -2880,6 +2888,27 @@ input, select, textarea {
 					}
 
 		}
+/* Education and Expierence  */
+
+.main-experience-div{
+	/* border: 1px solid blue; */
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.inner-experience-div{
+	/* border: 1px solid red; */
+	margin: auto;
+	width: 31%;
+	min-width: 12rem;
+}
+.education-images{
+	width: 5rem;
+	height: auto;
+}
+/* .extra-work-divs{
+	border: 1px solid green;
+} */
 
 /* Statistics */
 /* SKILLS */
